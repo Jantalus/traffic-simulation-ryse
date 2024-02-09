@@ -1,0 +1,6 @@
+graficos*
+csvs*
+outputs/*
+routes/*
+*.csv
+.DS_Store

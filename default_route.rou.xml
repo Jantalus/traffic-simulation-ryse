@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-09 22:03:09 by Eclipse SUMO netedit Version v1_18_0+2141-9dd26a22ea8
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="fast_driver" minGap="1" length="5.00" color="1,0,0" desiredMaxSpeed="41.67" accel="3.0" decel="7.0" sigma="0.5"/>
+    <vType id="moderate_driver" minGap="1" length="5.00" color="0,1,0" desiredMaxSpeed="32" accel="2.0" decel="6.0" sigma="0.5"/>
+    <vType id="slow_driver" minGap="1" length="5.00" color="0,0,1" desiredMaxSpeed="25" accel="1.0" decel="5.0" sigma="0.5"/>
+
+
+    <!-- Routes -->
+    <route id="straight" edges="highway"/> <!-- Vehicles, persons and containers (sorted by depart) -->
+
+		<flow id="f_4" type="fast_driver" departLane="5" departSpeed="max" begin="0.00" route="straight" vehsPerHour="16000"/>
+		<flow id="f_3" type="moderate_driver" departLane="4" departSpeed="max" begin="0.00" route="straight" vehsPerHour="16000"/>
+		<flow id="f_2" type="moderate_driver" departLane="3" departSpeed="max" begin="0.00" route="straight" vehsPerHour="16000"/>
+		<flow id="f_1" type="moderate_driver" departLane="2" departSpeed="max" begin="0.00" route="straight" vehsPerHour="16000"/>
+		<flow id="f_0" type="slow_driver" departLane="1" departSpeed="max" begin="0.00" route="straight" vehsPerHour="16000"/>
+</routes>

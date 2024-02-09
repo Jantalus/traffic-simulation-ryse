@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-26.30,80.69,615.87,82.36" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="highway" from="J0" to="J1" priority="-1" spreadType="center">
+        <lane id="highway_0" index="0" speed="16.67" allow="custom1" length="642.17" shape="-26.28,72.69 615.89,74.36"/>
+        <lane id="highway_1" index="1" speed="22.22" length="642.17" shape="-26.29,75.89 615.88,77.56"/>
+        <lane id="highway_2" index="2" speed="27.78" length="642.17" shape="-26.30,79.09 615.87,80.76"/>
+        <lane id="highway_3" index="3" speed="30.55" length="642.17" shape="-26.30,82.29 615.87,83.96"/>
+        <lane id="highway_4" index="4" speed="33.33" length="642.17" shape="-26.31,85.49 615.86,87.16"/>
+        <lane id="highway_5" index="5" speed="36.11" length="642.17" shape="-26.32,88.69 615.85,90.36"/>
+    </edge>
+
+    <junction id="J0" type="dead_end" x="-26.30" y="80.69" incLanes="" intLanes="" shape="-26.32,90.29 -26.28,71.09"/>
+    <junction id="J1" type="dead_end" x="615.87" y="82.36" incLanes="highway_0 highway_1 highway_2 highway_3 highway_4 highway_5" intLanes="" shape="615.89,72.76 615.85,91.96"/>
+
+</net>
